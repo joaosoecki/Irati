@@ -4,12 +4,12 @@ body{
 
 .navegacao a{ /* altera o cxabeçalho do site */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(255, 255, 255, 0.711);
+    background-color: #014e86b4;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 90px;
     box-shadow: 10px 10px 10px #08101a50;
 }
 
@@ -24,32 +24,10 @@ header{
 }
 
 .navegacao a{ /* altera os hyperlinks da classe navegação */
-    color: black;
+    color: #edf6f9;
     text-decoration: none; /* retira o sublinhado do hypoerlink */
 }
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
     color: #a7b2b6;
-}
-
-.principal img{ /* altera propriedades do logo tag img */
-    width: 100%; /* altera o tamanho da tag img */
-}
-
-.principal{
-    margin-top: 25px;
-}
-
-.rodape{
-    text-align: center;
-    color: darkgrey;
-    font-size: 13px;
-}
-
-@media screen and (maxwidth: 600px){
-    .principal, .conteudo {
-        width:100%;
-        flex-direction: column;
-        padding: 0px
-    }
 }

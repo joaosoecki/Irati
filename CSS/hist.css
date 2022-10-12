@@ -1,0 +1,34 @@
+body{
+    background-color: #014e86b4;
+
+}
+
+.navegacao { /* altera o cxabeçalho do site */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+
+header{
+    text-align: right;
+    font-size: large;
+}
+
+.navegacao{
+    
+    margin-bottom: 20px;
+}
+
+.navegacao a{ /* altera os hyperlinks da classe navegação */
+    color: #000000;
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+}
+
+.navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: #014e86b4;
+}

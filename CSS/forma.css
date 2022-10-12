@@ -2,28 +2,35 @@ body{
     background-color: #e9ecef;
 }
 
-header{ /* altera o cxabeçalho do site */
+.navegacao a{ /* altera o cxabeçalho do site */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #014F86;
-    margin-top: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: auto;
+    background-color: #014e86b4;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.navegacao{
+    margin-top: 30px;
 }
 
 .navegacao a{ /* altera os hyperlinks da classe navegação */
-    color: rgb(173,173,173);
+    color: #edf6f9;
     text-decoration: none; /* retira o sublinhado do hypoerlink */
-    paddin
 }
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
-    color: #edf6f9;
+    color: #a7b2b6;
 }
 
 .principal img{ /* altera propriedades do logo tag img */
-    width: 95%; /* altera o tamanho da tag img */
-    
+    width: 100%; /* altera o tamanho da tag img */
+}
+
+.principal{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .rodape{

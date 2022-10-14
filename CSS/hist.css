@@ -1,22 +1,27 @@
 body{
-    background-color: #014e86b4;
-
-}
-
-.navegacao { /* altera o cxabeçalho do site */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    
-    
+    background-color: #e9ecef;
 }
 
-header{
-    text-align: right;
+.navegacao{ /* altera o cxabeçalho do site */
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 3px;
     font-size: large;
+}
+
+table{
+    width: 100%;
+    text-align: justify;
+}
+.b{
+    text-align: right;
+}
+
+.titulo{
+    font-size: xx-large;
 }
 
 .navegacao{
@@ -31,4 +36,22 @@ header{
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
     color: #014e86b4;
+}
+
+
+
+
+
+.rodape{
+    text-align: center;
+    color: darkgrey;
+    font-size: 13px;
+}
+
+@media screen and (maxwidth: 600px){
+    .principal, .conteudo {
+        width:100%;
+        flex-direction: column;
+        padding: 0px
+    }
 }

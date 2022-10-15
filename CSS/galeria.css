@@ -1,10 +1,10 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hsl(210, 16%, 93%);
+    background-color: #e9ecef;
 }
 
-.navegacao { /* altera o cxabeçalho do site */
-    background-color:  #257EAF;
+.navegacao{ /* altera o cxabeçalho do site */
+    background-color: #257EAF;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 30px;
@@ -14,33 +14,10 @@ body{
 
 table{
     width: 100%;
-    
+    text-align: justify;
 }
 .b{
     text-align: right;
-}
-
-h1{
-    text-align: center;
-}
-
-.locais{
-    width: 80%;
-    padding-bottom: 30px;
-}
-
-.PONTOS{
-    background-color: rgba(255, 255, 255, 0.884);
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-}
-.PONTOS2{
-    background-color: rgba(255, 255, 255, 0.884);
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    width: 40%;
 }
 
 .navegacao{
@@ -55,7 +32,6 @@ h1{
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
     color: #d8dbdfe3;
 }
-
 
 
 

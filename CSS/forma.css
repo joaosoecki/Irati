@@ -9,7 +9,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-    
+    border-radius: 8px;
 }
 
 table{
@@ -20,9 +20,12 @@ table{
     text-align: right;
 }
 
+.links{
+    width: 13%;
+}
+
 header{
     text-align: right;
-    font-size: large;
 }
 
 .navegacao{
@@ -30,9 +33,17 @@ header{
     margin-bottom: 10px;
 }
 
+.central{
+    margin-bottom: 20px;
+}
+
 .navegacao a{ /* altera os hyperlinks da classe navegação */
     color: white;
     text-decoration: none; /* retira o sublinhado do hypoerlink */
+}
+
+.espaco{
+    padding-left: 25px;
 }
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */

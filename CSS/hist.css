@@ -7,9 +7,9 @@ body{
     background-color: #257EAF;
     padding-top: 5px;
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-bottom: 3px;
-    font-size: large;
+    border-radius: 8px;
 }
 
 table{

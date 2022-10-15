@@ -4,12 +4,20 @@ body{
 }
 
 .navegacao { /* altera o cxabeçalho do site */
-    background-color: white;
+    background-color: #257EAF;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
     
+}
+
+table{
+    width: 100%;
+    text-align: justify;
+}
+.b{
+    text-align: right;
 }
 
 header{
@@ -23,12 +31,12 @@ header{
 }
 
 .navegacao a{ /* altera os hyperlinks da classe navegação */
-    color: #000000;
+    color: white;
     text-decoration: none; /* retira o sublinhado do hypoerlink */
 }
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
-    color: #014e86b4;
+    color: #d8dbdfe3
 }
 
 .principal img{ /* altera propriedades do logo tag img */
@@ -40,9 +48,11 @@ header{
 }
 
 .rodape{
+    background-color: #257EAF;
     text-align: center;
-    color: darkgrey;
+    color: rgb(255, 255, 255);
     font-size: 13px;
+    padding: 20px;
 }
 
 @media screen and (maxwidth: 600px){

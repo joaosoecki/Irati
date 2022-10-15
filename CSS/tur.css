@@ -1,10 +1,10 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e9ecef;
+    background-color: hsl(210, 16%, 93%);
 }
 
 .navegacao { /* altera o cxabeçalho do site */
-    background-color: white;
+    background-color:  #257EAF;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 20px;
@@ -13,25 +13,40 @@ body{
 }
 
 table{
-    width: 100%;;
+    width: 100%;
+    
 }
 .b{
     text-align: right;
 }
 
+h1{
+    text-align: center;
+}
 
+.locais{
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.PONTOS{
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
 
 .navegacao{
     margin-bottom: 20px;
 }
 
 .navegacao a{ /* altera os hyperlinks da classe navegação */
-    color: #000000;
+    color: #ffffff;
     text-decoration: none; /* retira o sublinhado do hypoerlink */
 }
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
-    color: #014e86b4;
+    color: #d8dbdfe3;
 }
 
 
@@ -39,8 +54,10 @@ table{
 
 
 .rodape{
+    background-color: #257EAF;
     text-align: center;
-    color: darkgrey;
+    color: d=rgb(255, 255, 255);
+    padding: 20px;
     font-size: 13px;
 }
 

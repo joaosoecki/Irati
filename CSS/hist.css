@@ -4,7 +4,7 @@ body{
 }
 
 .navegacao{ /* altera o cxabeçalho do site */
-    background-color: white;
+    background-color: #257EAF;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 20px;
@@ -24,18 +24,26 @@ table{
     font-size: xx-large;
 }
 
+.textohist{
+    width: 90%;
+}
+
+h1{
+     text-align: center;
+}
+
 .navegacao{
     
     margin-bottom: 20px;
 }
 
 .navegacao a{ /* altera os hyperlinks da classe navegação */
-    color: #000000;
+    color: #ffffff;
     text-decoration: none; /* retira o sublinhado do hypoerlink */
 }
 
 .navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
-    color: #014e86b4;
+    color: #d8dbdfe3;
 }
 
 
@@ -43,8 +51,10 @@ table{
 
 
 .rodape{
+    background-color: #257EAF;
     text-align: center;
-    color: darkgrey;
+    color: rgb(255, 255, 255);
+    padding: 20px;
     font-size: 13px;
 }
 

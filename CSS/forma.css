@@ -17,14 +17,16 @@ table{
     text-align: justify;
 }
 .b{
-    text-align: right;
+    text-align: center;
 }
 
 .links{
     width: 13%;
+    padding-bottom: 20px;
 }
 
 header{
+    margin-top: 0px;
     text-align: right;
 }
 
@@ -56,6 +58,15 @@ header{
 
 .principal{
     margin-top: 10px;
+}
+
+.localizacao{
+    width: 100%;
+    
+}
+
+.d{
+    width: 50%;
 }
 
 .rodape{

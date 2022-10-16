@@ -34,6 +34,21 @@ table{
     color: #d8dbdfe3;
 }
 
+.titulo{
+    font-size: xx-large;
+}
+
+.textocentral{
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+h1{
+     text-align: center;
+}
+
+
+
 
 
 

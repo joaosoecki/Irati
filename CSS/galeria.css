@@ -33,6 +33,18 @@ table{
     color: #d8dbdfe3;
 }
 
+.titulo{
+    font-size: xx-large;
+}
+
+.textocentral{
+    width: 90%;
+}
+
+h1{
+     text-align: center;
+}
+
 
 
 

@@ -1,6 +1,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #e9ecef;
+    margin: 0;
 }
 
 .navegacao{ /* altera o cxabeçalho do site */
@@ -10,6 +11,7 @@ body{
     padding-right: 30px;
     padding-bottom: 3px;
     border-radius: 8px;
+    margin: 10px 10px 10px 10px;
 }
 
 table{
@@ -34,23 +36,31 @@ table{
     color: #d8dbdfe3;
 }
 
-.titulo{
-    font-size: xx-large;
-}
-
 .textocentral{
     width: 90%;
-    padding-bottom: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #aeb7c081;
 }
 
 h1{
      text-align: center;
+     font-size: xx-large;
 }
 
+h2{
+    text-align: center;
+}
 
+#brasao{
+    width: 50%;
+    padding-right: 10px;
+}
 
-
-
+#bandeira{
+    padding-top: 0;
+    padding-left: 10px;
+}
 
 .rodape{
     background-color: #257EAF;

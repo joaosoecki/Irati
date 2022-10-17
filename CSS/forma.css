@@ -1,15 +1,16 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #e9ecef;
+    margin: 0;
 }
 
 .navegacao { /* altera o cxabeçalho do site */
     background-color: #257EAF;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10px;
-    border-radius: 8px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 table{
@@ -26,18 +27,18 @@ table{
 }
 
 header{
-    margin-top: 0px;
     text-align: right;
 }
 
 .navegacao{
     overflow: hidden;
-    margin-bottom: 10px;
 }
 
 .central{
     margin-bottom: 20px;
 }
+
+
 
 .navegacao a{ /* altera os hyperlinks da classe navegação */
     color: white;
@@ -56,17 +57,16 @@ header{
     width: 100%; /* altera o tamanho da tag img */
 }
 
-.principal{
-    margin-top: 10px;
+#informacoes{
+    width: 70%;
 }
 
-.localizacao{
-    width: 100%;
-    
-}
 
 .d{
     width: 50%;
+    padding: 10px;
+    color: #257EAF;
+    text-align: center;
 }
 
 .rodape{

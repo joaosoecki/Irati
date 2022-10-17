@@ -1,6 +1,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: hsl(210, 16%, 93%);
+    margin: 0;
 }
 
 .navegacao { /* altera o cxabeçalho do site */
@@ -10,6 +11,7 @@ body{
     padding-right: 30px;
     padding-bottom: 3px;
     border-radius: 8px;
+    margin: 10px 10px 10px 10px;
 }
 
 table{
